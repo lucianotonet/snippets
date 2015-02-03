@@ -1,0 +1,43 @@
+/*.inputFile {
+border-color: rgb(229, 229, 229);
+color: rgb(190, 190, 190);
+box-shadow: none;
+font-size: 12px;
+height: 50px;
+line-height: 50px;
+padding: 0px 12px 0px 50px;
+}
+
+.labelFile {
+float: left;
+position: absolute;
+padding: 17px 49px;
+color: rgba(185, 185, 185, 1);
+}
+.file input.form-control {
+font-size: 14px;
+padding-left: 100px;
+cursor: pointer;
+width: 100%;
+padding: 14px 0px 0px 90px;
+}*/
+
+#trabalheConoscoForm .loading {
+    font-size: 0px;
+    font-weight: bold;
+    color: #B94A48;
+    text-align: center;
+    margin-bottom: 0px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    opacity: 0;
+}
+#trabalheConoscoForm .show {
+    opacity: 1;
+    display: block;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
